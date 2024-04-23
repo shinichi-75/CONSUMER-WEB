@@ -1,0 +1,61 @@
+.section3 {
+    background-color: #CAE2F9;
+    text-align: center;
+    padding-top: 20px;
+}
+.heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading-container .heading-learning {
+    color: #0C0098;
+    font-size: 80px;
+}
+.learning-box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 50px;
+    padding: 20px 70px;
+    margin-bottom: 45px;
+}
+.learning-box {
+    background-color: #fff;
+    max-width: 800px;
+    height: 230px;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.21);
+}
+.learning-box-heading,
+.learning-box-content,
+.learning-box-link {
+    color: #4359CE;
+}
+.learning-box-heading {
+    font-size: 39px;
+}
+.learning-box-content {
+    font-size: 19px;
+    padding: 20px;
+}
+.learning-box-link {
+    font-size: 19px;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 5px;
+}
+.learning-box-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0%;
+    background-color: #4359CE;
+    transition: all ease 0.8s;
+}
+.learning-box-link:hover::after {
+    width: 100%;
+}

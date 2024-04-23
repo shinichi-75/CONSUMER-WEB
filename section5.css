@@ -1,0 +1,38 @@
+.section-5 {
+    background-color: #4359CE;
+    color: #fff;
+}
+.superpower-heading {
+    font-size: 100px;
+    padding-top: 50px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.superpower-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 120px;
+    margin-bottom: 70px;
+}
+.superpower-main h1 {
+    font-size: 115px;
+    font-weight: 800;
+    padding: 0 50px;
+}
+.superpower-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.superpower-bottom p {
+    font-size: 32px;
+    padding: 0 80px;
+    margin-bottom: 100px;
+}
+.p1 {
+    text-align: left;
+}
+.p2 {
+    text-align: right;
+}

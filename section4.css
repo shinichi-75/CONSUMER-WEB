@@ -1,0 +1,113 @@
+.section-4 {
+    padding: 25px 40px 55px;
+    background-color: #fff;
+}
+.section-4-heading {
+    color: #0C0098;
+    font-size: 100px;
+    margin-bottom: 45px;
+}
+
+.section-4-content-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item-container {
+    display: grid;
+    grid-template-columns: 477px 477px;
+    grid-template-rows: 195px 195px 195px;
+    row-gap: 40px;
+    column-gap: 60px;
+    width: 60%;
+}
+.item {
+    background-color: #5147C2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 23px;
+}
+.item .img1 {
+    width: 142px;
+    height: 158px;
+}
+.item .img2 {
+    width: 142px;
+    height: 132px;
+}
+.item .img3 {
+    width: 142px;
+    height: 168px;
+}
+.item .img4 {
+    width: 155px;
+    height: 139px;
+}
+.item .img5 {
+    width: 150px;
+    height: 134px;
+}
+.item.img6 {
+    width: 150px;
+    height: 136px;
+}
+.item p {
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.news-section {
+    max-width: 620px;
+    height: 740px;
+    border-radius: 32px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+.news-section .complaints {
+    background-color: #304095;
+    height: 105px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.complaints p {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.bottom-line {
+    background-color: #304095;
+    height: 40px;
+    width: 620px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.news-container-main {
+    max-height: 600px;
+    overflow: hidden;
+    position: relative;
+    padding: 0 30px;
+}
+ul {
+    height: 602px;
+    transform: translateY(70%);
+    animation: scroll-top-animate 16s linear infinite;
+    list-style-type: none;
+}
+ul li {
+    margin-bottom: 100px;
+    font-weight: 500;
+}
+@keyframes scroll-top-animate {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
